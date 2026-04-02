@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DRM Watch 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <canvas class="hero__canvas" id="radarCanvas"></canvas>
+
+  <main class="hero">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Open-source ESP32-S2 smartwatch</p>
+      <h1 class="hero__title">DRM<span>OTA</span> </h1>
+      <p class="hero__sub">Firmware update server &amp; project home.</p>
+      <div class="hero__meta">
+        <div class="meta-item">
+          <span class="meta-label">Current firmware</span>
+          <span class="meta-val" id="fwVersion">—</span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <span class="meta-label">Platform</span>
+          <span class="meta-val">ESP32-S2</span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <span class="meta-label">Source</span>
+          <a class="meta-val meta-link" href="https://github.com/hertzz58/drmota" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>&copy; <span id="year"></span> DRMOTA</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

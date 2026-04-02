@@ -1,2 +1,1 @@
-# drmota
-OTA Updates for custom DRMWatch3
+This is just a simple site to host updates for my DRMWatch with custom firmware, the original project is from Dr.Failov over at https://github.com/drfailov/DRM_Watch_v3/tree/main. 
